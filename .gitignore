@@ -13,8 +13,8 @@
 /.reek
 /.rubocop.yml
 /.yardoc
-/config/database.yml
-/config/elasticsearch.yml
+#/config/database.yml
+#/config/elasticsearch.yml
 
 # IDE projects
 /*.sublime-project

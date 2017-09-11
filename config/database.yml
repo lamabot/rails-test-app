@@ -4,11 +4,10 @@ development: &development
   database: test_app_development
   host: localhost
   pool: 5
-  username: idt_web
-  password:
+  username: postgres
 
 test:
   <<: *development
-  host: postgres
+  host: localhost
   username: postgres
   database: test_app_test
