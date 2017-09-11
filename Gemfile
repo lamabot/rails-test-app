@@ -15,6 +15,8 @@ gem 'simple_form'
 gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
 
+gem 'listen', '~> 3.0.5'
+
 # Front-end stuff
 gem 'webpacker'
 gem 'bootstrap-sass', '~> 3.3.6'
